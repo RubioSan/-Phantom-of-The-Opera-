@@ -3,27 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <title>The Phantom of the Opera by MazM</title>
+    <style>
+        body {
+            background-color: black; /* Set background color to black */
+            color: white; /* Set text color to white */
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            color: white; /* Set heading color to white */
+        }
+        p {
+            color: white; /* Set paragraph text color to white */
+        }
+        a {
+            color: white; /* Set link text color to white */
+            text-decoration: none; /* Remove underline from links */
+        }
+        a:hover {
+            text-decoration: underline; /* Add underline on hover for links */
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>The Phantom of the Opera</h1>
-        <p>A video game adaptation by MazM</p>
-    </header>
-
-    <section id="about">
-        <h2>About the Game</h2>
-        <p>Explore the haunting world of the French opera house in this interactive mystery adventure based on the classic novel.</p>
-        <!-- Add more detailed information, images, and videos -->
-    </section>
-
-    <section id="developer">
-        <h2>About MazM</h2>
-        <p>MazM is an indie game studio known for creating unique narrative-driven games inspired by classic literature.</p>
-        <!-- Add more details about the developer -->
-    </section>
-
-    <footer>
-        <p>&copy; 2024 Your Name | Created for Video Game Class</p>
-    </footer>
+    <h1>The Phantom of the Opera</h1>
+    <p>Explore the haunting world of the French opera house in this interactive mystery adventure based on the classic novel.</p>
+    <p>Developed by MazM</p>
+    <p>
+        <a href="https://example.com/download">Download Game</a> | 
+        <a href="https://example.com/official-website">Official Website</a>
+    </p>
 </body>
 </html>
