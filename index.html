@@ -17,6 +17,10 @@
             font-weight: bold;
             margin-bottom: 20px;
         }
+        h2, h3 {
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
         .quote {
             font-size: 18px;
             font-style: italic;
@@ -31,6 +35,27 @@
             font-size: 18px; /* Font size for paragraphs */
             line-height: 1.5; /* Increase line height for readability */
         }
+        .characters {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .character {
+            text-align: center;
+        }
+        .character img {
+            max-width: 150px;
+            height: auto;
+            border: 2px solid white;
+        }
+        .character-name {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+        .video-container {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
     </style>
 </head>
 <body>
@@ -41,7 +66,23 @@
 
     <p>The Phantom of The Opera is a game based on the French Gothic novel by Gaston Leroux.</p>
 
-    <h2>♫Game Play♫</h2> 
+    <h2>♫Characters♫</h2>
+    <div class="characters">
+        <div class="character">
+            <img src="character1.jpg" alt="Character 1">
+            <div class="character-name">Character 1</div>
+        </div>
+        <div class="character">
+            <img src="character2.jpg" alt="Character 2">
+            <div class="character-name">Character 2</div>
+        </div>
+        <div class="character">
+            <img src="character3.jpg" alt="Character 3">
+            <div class="character-name">Character 3</div>
+        </div>
+    </div>
+
+    <h3>♫Game Play♫</h3> 
     <p>Phantom of The Opera is a point and click styled game for the Nintendo Switch but can also be played on PC and mobile devices. To tell the story of the Phantom of The Opera, the game changes characters, the most frequent one being Christine. There are minigames and puzzles to solve in order to open secret doors and items. The game provides an amazing OST and music from famous operas like “Ah, je ris de me voir” from Faust.</p> 
 
     <div class="video-container">
